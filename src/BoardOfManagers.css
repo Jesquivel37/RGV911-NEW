@@ -1,0 +1,87 @@
+.board-container {
+    background: linear-gradient(180deg, rgba(22,26,36,1) 10%, rgba(22,26,36,1) 70%);
+    color: #ffffff; 
+}
+
+.board-title {
+    text-align: center;
+}
+
+.board-title h1 {
+    display: inline-block;
+    margin: 100px 0;
+    font-size: 72px;
+}
+
+.board {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board-card {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.board-member {
+    background-color: rgba(217, 217, 217, 0.185);
+    border-left: 6px solid #D9B13B;
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.member-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.member-descript {
+    text-align: center;
+}
+
+.member-descript h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.member-descript small {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+.info {
+    font-size: 28px;
+}
+
+.info h4 {
+    font-weight: 500;
+}
+
+.info small {
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1469px){
+   .board-member {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+   }
+
+
+    
+}
+
+

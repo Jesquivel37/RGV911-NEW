@@ -1,0 +1,63 @@
+#background {
+    background-image: url("./assets/images/emergency.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.article-title { font-size: 50px; text-transform: uppercase;}
+.article { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(19, 26, 36, 0.8);
+}
+.article-info {font-size: 32px; width: 30%;}
+.link { color: #D9B13B;; text-decoration: none; }
+.link:hover { color: #fff; text-decoration: none; }
+.article-img {
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    #background {
+        background-size: cover;
+        background-position: center;
+    }
+    .article-title {
+    font-size: 30px;
+  }
+
+  .article-info { 
+    font-size: 20px;
+    width: 80%;
+}
+
+.article-img {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}  
+
+/* Screens bigger than 600px */
+@media only screen and (min-width: 700px){
+   
+    
+
+  
+}
+
